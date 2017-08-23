@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SocialMedia</string>
+
+    <!--For facebook-->
+    <string name="facebook_app_id">1606921802691403</string>
+    <string name="fb_login_protocol_scheme">fb1606921802691403</string>
+
+
+    <!--/////for Twitter -->
+    <string name="CONSUMER_KEY">Nf2zP6O4ptO5XhZc5uyrkBNZX</string>
+    <string name="CONSUMER_SECRET">HtFw2z9b1TSAkAPQd3f1vION7mhVNgmNQ96e70z4Q1jwh6Tguf</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_confirm_password">Enter confirm Password</string>
+    <string name="enter_mobile_no">Enter Mobile No</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="login">Login</string>
+    <string name="remember_login">Remember Login</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="welcome_to_login_media">Welcome to Login Media</string>
+    <string name="application">Application</string>
+    <string name="create_new_account_click_here">Create New Account?Click Here</string>
+    <string name="notification_type">Notification type :</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signuplayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    tools:context="com.example.android1.loginmedia.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edittextname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittextemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittextphone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_mobile_no"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+
+            android:id="@+id/edittextconfirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_confirm_password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/buttonregistration"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="sans-serif"
+            android:text="Registration"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:padding="8dp"
+            android:text="Already have Account ? Click Here"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="italic|normal" />
+
+    </LinearLayout>
+</ScrollView>

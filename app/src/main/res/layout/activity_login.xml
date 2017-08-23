@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="5dp"
+    tools:context="com.example.android1.loginmedia.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edittextemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <CheckBox
+
+            android:id="@+id/rememberlogincheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/keep_me_logged_in"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="sans-serif"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/signupbutton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="@string/create_new_account_click_here"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+        <ImageButton
+            android:id="@+id/googleplusbutton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gmail" />
+
+        <ImageButton
+            android:id="@+id/facebookibutton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/fb" />
+
+        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+            android:id="@+id/Twitterbutton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/twitter" />
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/linkedinibutton"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:src="@drawable/linkedin" />-->
+    </LinearLayout>
+</ScrollView>
